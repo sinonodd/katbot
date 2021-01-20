@@ -1,0 +1,28 @@
+{
+  "name": "bots",
+  "version": "1.0.0",
+  "description": "discord bot, it's gonna be beutiful, it's gonna be perfect!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint src/",
+    "start": "node src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sinonodd/katbot.git"
+  },
+  "author": "kay",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sinonodd/katbot/issues"
+  },
+  "homepage": "https://github.com/sinonodd/katbot#readme",
+  "dependencies": {
+    "discord.js": "^12.5.1",
+    "dotenv": "^8.2.0"
+  },
+  "devDependencies": {
+    "eslint": "^7.18.0"
+  }
+}
